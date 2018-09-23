@@ -16,9 +16,14 @@
     software engineering best practices, software development,
     best practices
     ">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,600,700" rel="stylesheet">
 
     <style>
+html {
+  font-size: 21px;
+  padding: 1em;
+    color: #333;
+}
 h1 {
   font-family: 'Work Sans', sans-serif;
   font-weight: 800;
@@ -26,149 +31,179 @@ h1 {
 p {
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
+  line-height: 1.6em;
+}
+article {
+  max-width: 700px;
+  margin: auto;
+}
+.values {
+  margin: 1.5em 0;
+}
+.value {
+  width: 100%;
+  display: flex;
+  line-height: 1.1em;
+}
+.value--left,
+.value--right {
+}
+.value--left {
+  width: 11em;
+  flex-grow: 1;
+  font-weight: 600;
+  margin-right: 0.5em;
+}
+.value--right {
+  text-align: right;
+  margin-left: 0.5em;
+  width: 17em;
 }
     </style>
   </head>
   <body>
-    <br><br><br><br>
+    <article>
+      <h1>Manifesto for Agile Software Development</h1>
+      <br><br><br>
 
-    <h1>Manifesto for Agile Software Development</h1>
-    <br><br><br>
+      <p>
+      We are uncovering better ways of developing
+      software by doing it and helping others do it.
+      Through this work we have come to value:
 
-    <p>
-    We are uncovering better ways of developing
-    software by doing it and helping others do it.
-    Through this work we have come to value:
-
-    <p>
-    <span class="value--large">Individuals and interactions</span> over processes and tools
-    <p>
-    <span class="value--large">Working software</span> over comprehensive documentation
-    <p>
-    <span class="value--large">Customer collaboration</span> over contract negotiation
-    <p>
-    <span class="value--large">Responding to change</span> over following a plan
+      <section class="values">
+        <p class="value">
+        <span class="value--left">Individuals and interactions</span> <span class="value--right">over processes and tools</span>
+        <p class="value">
+        <span class="value--left">Working software</span> <span class="value--right">over comprehensive documentation</span>
+        <p class="value">
+        <span class="value--left">Customer collaboration</span> <span class="value--right">over contract negotiation</span>
+        <p class="value">
+        <span class="value--left">Responding to change</span> <span class="value--right">over following a plan</span>
 
 
-    <p>
-    That is, while there is value in the items on
-    the right, we value the items on the left more.
+        <p>
+        That is, while there is value in the items on
+        the right, we value the items on the left more.
 
-    <br><br><br><br>
+        <br><br><br><br>
 
-    <table cellpadding=15>
-      <tr align=center valign=top>
-        <td>
-          <td>
-            Kent Beck
-            Mike Beedle
-            Arie van Bennekum
-            Alistair Cockburn
-            Ward Cunningham
-            Martin Fowler
-          </td>
+        <table cellpadding=15>
+          <tr align=center valign=top>
+            <td>
+              <td>
+                Kent Beck
+                Mike Beedle
+                Arie van Bennekum
+                Alistair Cockburn
+                Ward Cunningham
+                Martin Fowler
+              </td>
 
-          <td>
+              <td>
 
-            James Grenning
-            Jim Highsmith
-            Andrew Hunt
-            Ron Jeffries
-            Jon Kern
-            Brian Marick
-          </td>
+                James Grenning
+                Jim Highsmith
+                Andrew Hunt
+                Ron Jeffries
+                Jon Kern
+                Brian Marick
+              </td>
 
-          <td>
-            Robert C. Martin
+              <td>
+                Robert C. Martin
 
-            Steve Mellor
-            Ken Schwaber
-            Jeff Sutherland
-            Dave Thomas
-          </td>
-      </tr>
-    </table>
-    <br><br><br>
+                Steve Mellor
+                Ken Schwaber
+                Jeff Sutherland
+                Dave Thomas
+              </td>
+          </tr>
+        </table>
+        <br><br><br>
 
-    &copy; 2001, the above authors
-    this declaration may be freely copied in any form, 
-    but only in its entirety through this notice.
+        <div style="font-size: 10px; text-align: center;">
+        &copy; 2001, the above authors
+        this declaration may be freely copied in any form, 
+        but only in its entirety through this notice.
+        </div>
 
-    <br><br><br><br>
+        <br><br><br><br>
 
-    <h1>Principles behind the Agile Manifesto</h1>
+        <h1>Principles behind the Agile Manifesto</h1>
 
-    <br><br>
+        <br><br>
 
-    <i>We follow these principles:</i>
+        <i>We follow these principles:</i>
 
-    <p>
-    Our highest priority is to satisfy the customer
-    through early and continuous delivery
-    of valuable software.
-    </p>
+        <p>
+        Our highest priority is to satisfy the customer
+        through early and continuous delivery
+        of valuable software.
+        </p>
 
-    <p>
-    Welcome changing requirements, even late in 
-    development. Agile processes harness change for 
-    the customer's competitive advantage.
-    </p>
+        <p>
+        Welcome changing requirements, even late in 
+        development. Agile processes harness change for 
+        the customer's competitive advantage.
+        </p>
 
-    <p>
-    Deliver working software frequently, from a 
-    couple of weeks to a couple of months, with a 
-    preference to the shorter timescale.
-    </p>
+        <p>
+        Deliver working software frequently, from a 
+        couple of weeks to a couple of months, with a 
+        preference to the shorter timescale.
+        </p>
 
-    <p>
-    Business people and developers must work 
-    together daily throughout the project.
-    </p>
+        <p>
+        Business people and developers must work 
+        together daily throughout the project.
+        </p>
 
-    <p>
-    Build projects around motivated individuals. 
-    Give them the environment and support they need, 
-    and trust them to get the job done.
-    </p>
+        <p>
+        Build projects around motivated individuals. 
+        Give them the environment and support they need, 
+        and trust them to get the job done.
+        </p>
 
-    <p>
-    The most efficient and effective method of 
-    conveying information to and within a development 
-    team is face-to-face conversation.
-    </p>
+        <p>
+        The most efficient and effective method of 
+        conveying information to and within a development 
+        team is face-to-face conversation.
+        </p>
 
-    <p>
-    Working software is the primary measure of progress.
-    </p>
+        <p>
+        Working software is the primary measure of progress.
+        </p>
 
-    <p>
-    Agile processes promote sustainable development. 
-    The sponsors, developers, and users should be able 
-    to maintain a constant pace indefinitely.
-    </p>
+        <p>
+        Agile processes promote sustainable development. 
+        The sponsors, developers, and users should be able 
+        to maintain a constant pace indefinitely.
+        </p>
 
-    <p>
-    Continuous attention to technical excellence 
-    and good design enhances agility.
-    </p>
+        <p>
+        Continuous attention to technical excellence 
+        and good design enhances agility.
+        </p>
 
-    <p>
-    Simplicity--the art of maximizing the amount 
-    of work not done--is essential.
-    </p>
+        <p>
+        Simplicity--the art of maximizing the amount 
+        of work not done--is essential.
+        </p>
 
-    <p>
-    The best architectures, requirements, and designs 
-    emerge from self-organizing teams.
-    </p>
+        <p>
+        The best architectures, requirements, and designs 
+        emerge from self-organizing teams.
+        </p>
 
-    <p>
-    At regular intervals, the team reflects on how 
-    to become more effective, then tunes and adjusts 
-    its behavior accordingly.
-    </p>
-    <br><br><br>
+        <p>
+        At regular intervals, the team reflects on how 
+        to become more effective, then tunes and adjusts 
+        its behavior accordingly.
+        </p>
+        <br><br><br>
 
+    </article>
   </body>
 </html>
 
