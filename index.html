@@ -16,22 +16,25 @@
     software engineering best practices, software development,
     best practices
     ">
+    <meta name="viewport" content="width=devicewidth, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,600,700" rel="stylesheet">
 
     <style>
 html {
+  font-family: 'Work Sans', sans-serif;
   font-size: 21px;
   padding: 1em;
-    color: #333;
+  color: #333;
 }
 h1 {
-  font-family: 'Work Sans', sans-serif;
   font-weight: 800;
 }
-p {
-  font-family: 'Work Sans', sans-serif;
+p, table {
   font-weight: 300;
   line-height: 1.6em;
+}
+table {
+  text-align: center;
 }
 article {
   max-width: 700px;
@@ -44,9 +47,7 @@ article {
   width: 100%;
   display: flex;
   line-height: 1.1em;
-}
-.value--left,
-.value--right {
+  text-align: center;
 }
 .value--left {
   width: 11em;
@@ -55,9 +56,12 @@ article {
   margin-right: 0.5em;
 }
 .value--right {
-  text-align: right;
   margin-left: 0.5em;
   width: 17em;
+}
+.copyright {
+  font-size: 11px;
+  text-align: center;
 }
     </style>
   </head>
@@ -70,16 +74,31 @@ article {
       We are uncovering better ways of developing
       software by doing it and helping others do it.
       Through this work we have come to value:
+      </p>
 
       <section class="values">
         <p class="value">
-        <span class="value--left">Individuals and interactions</span> <span class="value--right">over processes and tools</span>
+        <span class="value--left">
+          Individuals and interactions </span><span class="value--right">
+          over processes and tools
+        </span>
         <p class="value">
-        <span class="value--left">Working software</span> <span class="value--right">over comprehensive documentation</span>
+        <span class="value--left">
+          Working software </span><span class="value--right">
+          over comprehensive documentation
+        </span>
         <p class="value">
-        <span class="value--left">Customer collaboration</span> <span class="value--right">over contract negotiation</span>
+        <span class="value--left">
+          Customer collaboration </span><span class="value--right">
+          over contract negotiation
+        </span>
         <p class="value">
-        <span class="value--left">Responding to change</span> <span class="value--right">over following a plan</span>
+        <span class="value--left">
+          Responding to change </span><span class="value--right">
+          over following a plan
+        </span>
+        </p>
+      </section>
 
 
         <p>
@@ -89,7 +108,7 @@ article {
         <br><br><br><br>
 
         <table cellpadding=15>
-          <tr align=center valign=top>
+          <tr valign=top>
             <td>
               <td>
                 Kent Beck
@@ -122,7 +141,7 @@ article {
         </table>
         <br><br><br>
 
-        <div style="font-size: 10px; text-align: center;">
+        <div class="copyright">
         &copy; 2001, the above authors
         this declaration may be freely copied in any form, 
         but only in its entirety through this notice.
