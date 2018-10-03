@@ -29,16 +29,9 @@ html {
 h1 {
   font-weight: 800;
 }
-p, table {
+p {
   font-weight: 300;
   line-height: 1.4em;
-}
-table {
-  max-width: 100%;
-  text-align: center;
-}
-td {
-  padding: 15px;
 }
 article {
   max-width: 535px;
@@ -62,7 +55,18 @@ article {
 }
 .value--right {
   margin-left: 0.5em;
-  width: 17em;
+  width: 10em;
+}
+.authors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.people {
+  text-align: center;
+  min-width: 6em;
+  margin: 0.5em;
+  font-size: 0.8em;
 }
 .copyright {
   font-size: 11px;
@@ -112,35 +116,34 @@ article {
 
         <br><br><br><br>
 
-        <table>
-          <tr valign=top>
-            <td>
-              Kent Beck<br>
-              Mike Beedle<br>
-              Arie van Bennekum<br>
-              Alistair Cockburn<br>
-              Ward Cunningham<br>
-              Martin Fowler<br>
-            </td>
+        <section class="authors">
+          <div class="people">
+            Kent Beck<br>
+            Mike Beedle<br>
+            Arie van Bennekum<br>
+            Alistair Cockburn<br>
+            Ward Cunningham<br>
+            Martin Fowler<br>
+          </div>
 
-            <td>
-              James Grenning<br>
-              Jim Highsmith<br>
-              Andrew Hunt<br>
-              Ron Jeffries<br>
-              Jon Kern<br>
-              Brian Marick<br>
-            </td>
+          <div class="people">
+            James Grenning<br>
+            Jim Highsmith<br>
+            Andrew Hunt<br>
+            Ron Jeffries<br>
+            Jon Kern<br>
+            Brian Marick<br>
+          </div>
 
-            <td>
-              Robert C. Martin<br>
-              Steve Mellor<br>
-              Ken Schwaber<br>
-              Jeff Sutherland<br>
-              Dave Thomas
-            </td>
-          </tr>
-        </table>
+          <div class="people">
+            Robert C. Martin<br>
+            Steve Mellor<br>
+            Ken Schwaber<br>
+            Jeff Sutherland<br>
+            Dave Thomas
+          </div>
+        </section>
+
         <br><br><br>
 
         <div class="copyright">
